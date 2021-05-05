@@ -200,6 +200,7 @@ div.container1{
   justify-content:space-between;
   align-items:center;
 }
+
 div.wrapper img{
 
 width:100%;
@@ -296,7 +297,9 @@ div.social__icons a:hover{
     position:relative;
     left:15%;
   }
-  
+  div.wrapper{
+    height:auto;
+  }
   div.wrapper img{
   height:50%;
   width:80%;
