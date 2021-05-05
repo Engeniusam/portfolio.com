@@ -93,7 +93,7 @@ a.nav__link:hover::after{
     overflow-x:hidden;
   }
   .header-1, .me, .holla, .back{
-    overflow:visible !important;
+    overflow-y:visible !important;
   }
   .header-1{
     width:100%;
