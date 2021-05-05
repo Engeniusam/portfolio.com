@@ -92,8 +92,8 @@ a.nav__link:hover::after{
   *{
     overflow-x:hidden;
   }
-  .header-1, #home{
-    overflow:unset;
+  .header-1, .me, .holla, .back{
+    overflow:visible !important;
   }
   .header-1{
     width:100%;
