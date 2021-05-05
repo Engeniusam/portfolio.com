@@ -199,11 +199,6 @@ div.container1{
   justify-content:space-between;
   align-items:center;
 }
-div.wrapper{
-  height:auto;
-}
-
-
 div.wrapper img{
 
 width:100%;
@@ -332,6 +327,9 @@ div.social__icons a:hover{
    
     
   }
+  .me ,.back ,.holla{
+    overflow-y:visible;
+  }
   div.holla{
     -webkit-clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
   clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
@@ -341,6 +339,7 @@ div.social__icons a:hover{
     place-items:center;
     transform:scale(1.0) ;
     position:relative;
+    top:20%;
    
   }
   div.social__icons{
