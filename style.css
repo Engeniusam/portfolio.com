@@ -92,8 +92,7 @@ a.nav__link:hover::after{
   *{
     overflow-x:hidden;
   }
-
-  }
+  
   .header-1{
     width:100%;
     display: flex;
@@ -114,6 +113,7 @@ a.nav__link:hover::after{
   nav.bd-grid .nav__logo{
     font-size: 25px;
   margin-left:2%;
+
 }
   ul.nav__list{
     display:flex;
@@ -202,6 +202,7 @@ div.container1{
 div.wrapper{
   height:auto;
 }
+
 
 div.wrapper img{
 
