@@ -308,7 +308,7 @@ div.social__icons a:hover{
     display:grid;
     place-items:center;
     position:relative;
-    top:-40%;
+    top:-25%;
   }
   div.me h1{
     font-size:19px;
@@ -334,7 +334,7 @@ div.social__icons a:hover{
     place-items:center;
     transform:scale(1.0);
     position:relative;
-    top:-80%;
+    top:-40%;
   }
   div.social__icons{
     transform:none;
