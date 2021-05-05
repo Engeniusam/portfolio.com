@@ -308,6 +308,7 @@ div.social__icons a:hover{
     display:grid;
     place-items:center;
     position:relative;
+    transform:translateY(20%);
     top:-25%;
   }
   div.me h1{
@@ -321,9 +322,9 @@ div.social__icons a:hover{
     clip-path: polygon(69% 0, 79% 50%, 60% 97%, 3% 97%, 22% 49%, 9% 0);
     background-color:var(--first-color);
     padding:5px 0 5px 1px;
-    transform:scale(0.8);
+    transform:scale(0.8) translateY(40%);
     position:relative;
-    top:-10%;
+    
   }
   div.holla{
     -webkit-clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
@@ -332,7 +333,7 @@ div.social__icons a:hover{
   background-color:var(--first-color);
   display:grid;
     place-items:center;
-    transform:scale(1.0);
+    transform:scale(1.0) translateY(30%);
     position:relative;
     top:-40%;
   }
