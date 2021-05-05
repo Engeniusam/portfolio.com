@@ -88,6 +88,9 @@ a.nav__link:hover::after{
   transition:1s;
 }
 @media (max-width:700px){
+  body{
+    overflow:hidden;
+  }
   .header-1{
     width:100%;
     display: flex;
