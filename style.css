@@ -706,7 +706,7 @@ div.divider{
     flex-flow:column wrap;
   }
   div.site + div.site{
-    margin:auto;
+    margin:none;
   }
   div.site{
     width:90%;
