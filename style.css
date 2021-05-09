@@ -300,7 +300,7 @@ div.social__icons a:hover{
     transform:scale(0.680);
     height:calc(100vh - 40px);
     position:relative;
-    top:-15%;
+    top:-5%;
     left:15%;
     overflow:visible;
   }
