@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,100;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karma&display=swap');
 :root{
   --first-color: #4070F4;
   --second-color: #0E2431;
@@ -92,6 +93,9 @@ a.nav__link:hover::after{
   *{
     overflow-x:hidden;
   }
+  .header-1{
+    overflow:visible !important;
+  }
   
   .header-1{
     width:100%;
@@ -167,6 +171,9 @@ marquee{
   top:0;
 left:0;
   z-index:100;
+}
+marquee em{
+  margin-right:10%;
 }
 div.maq{
   width:80%;
@@ -288,16 +295,20 @@ div.social__icons a:hover{
     isolation: isolate;
   }
   div.container1{
-    display: inline-flex;
+    display: inline-block;
     flex-direction: column;
-    transform:scale(0.8);
+    transform:scale(0.680);
     height:calc(100vh - 40px);
     position:relative;
+    top:-15%;
     left:15%;
+    overflow:visible;
   }
   div.wrapper{
-    height:auto;
-  }
+    width:100%;
+    display:block;
+    margin-bottom: 5%;
+    }
   div.wrapper img{
   height:50%;
   width:80%;
@@ -306,13 +317,11 @@ div.social__icons a:hover{
   div.me{
   background-color:var(--first-color);
     padding:25px 23px 25px 5px;
-    display:grid;
-    place-items:center;
     position:relative;
 
   }
   div.me h1{
-    font-size:19px;
+    font-size:24px;
   }
   div.me span{
     color:#fff;
@@ -327,9 +336,7 @@ div.social__icons a:hover{
    
     
   }
-  .me ,.back ,.holla{
-    overflow-y:visible;
-  }
+ 
   div.holla{
     -webkit-clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
   clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
@@ -399,6 +406,27 @@ div.social__icons a:hover{
   background-color: #fff;
   color:#000;
   isolation:isolate;
+}
+.about__text{
+  margin-bottom:10%;
+}
+.hero_btn{
+  border:1px solid #fff;
+  background: var(--first-color);
+color:#fff;
+padding:10px 10px;
+display: inline-block;
+border-radius:25px;
+font-size: 23px;
+}
+.hero_btn:hover{
+  background-color: #fff;
+  border-color:var(--first-color);
+  cursor:pointer;
+  transition:1s;
+}
+.bxs-download{
+  margin-right:8px;
 }
 div.info h3{
   font-size: 24px;
@@ -521,7 +549,58 @@ div.skills__name .bx{
 .skills__subtitle{
   font-size:23px;
 }
+
+div.quote p{
+  font-family: 'Karma', serif;
+  font-size: 22px;
+  padding:6px;
+  text-align:center;
+  line-height:35px;
+}
+div.donald{
+  font-style:italic;
+  text-align:right;
+  font-size:16px;
+  margin-top: 4%;
+  color:gray;
+}
+p.word {
+  text-align:center;
+  margin-top:30px;
+  margin-bottom:30px;
+  font-weight: bold;
+  text-decoration-line:underline;
+  text-decoration-style: wavy;
+  padding-bottom:10px;
+}
+div.quote p:nth-child(2)::before{
+  content: "“";
+  font-size: 35px;
+}
+div.quote p:nth-child(2)::after{
+  content:  "”";
+  font-size: 35px;
+}
 @media (max-width:420px){
+  div.quote p{
+    font-family: 'Karma', serif;
+    font-size: 19px;
+    padding:6px;
+    text-align:center;
+    line-height:25px;
+  }
+  div.donald{
+    
+    font-size:17px;
+    margin-top: 2%;
+    margin-left:10px;
+  }
+  p.word {
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:10px;
+   padding-bottom:10px;
+  }
   #skills{
     width:98%;
     margin:auto;
@@ -626,11 +705,13 @@ div.divider{
     display: flex;
     flex-flow:column wrap;
   }
+  div.site + div.site{
+    margin:auto;
+  }
   div.site{
     width:90%;
-    margin:auto;
+    margin:0 auto 5%;
     height:90%;
-    margin-bottom:5%;
     border: 3px solid rgba(249, 249, 249, 0.1);
   box-shadow:rgb(0,0,0 / 69%) 0px 26px 30px -10px, rgb(0,0,0 / 73%) 0px 16px 10px -10px;
   transition:all 250ms cubic-bezier(0.25, 0.46, 0.45,0.94) 0s;
@@ -640,9 +721,6 @@ div.site p{
 }
 div.site img{
   max-width:100%;
-}
-div.site + div.site{
-  margin:auto;
 }
 }
 

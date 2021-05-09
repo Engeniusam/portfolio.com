@@ -35,9 +35,11 @@
   <i  class='bx bx-menu'onclick="showMenu()"></i>
 </div>
 </header>
-<div class="maq"><marquee hspace="50%" scrollamount="5s"><span class="material-icons">
-  call
-  </span><em>0741-279-049</em></marquee></div>
+<div class="maq"><marquee hspace="50%" scrollamount="5s">
+  <span style="font-size:18px;" class="material-icons">mail</span><em>Engeniusam@gmail.com</em>
+  <span style="margin-left:10px; font-size:18px;" class="material-icons">call</span><em>0741-279-049</em>
+  <span style="margin-left:10px; font-size:18px;" class="material-icons">location_on</span><em>Nyeri,Kenya</em>
+</marquee></div>
 <!--Home Section-->
 <section id="home" class="section" >
   <video controlsList="nodownload" loop autoplay>
@@ -80,6 +82,7 @@
    <div class="info ab1">
       <h3 class="info__subtitle">Engeniusam</h3>
       <p class="about__text">My name is Samuel Macharia Muchiri,you can call me <em>Engeniusam</em>,my frontend dev label.I am a 2nd year at Baraton University currently pursuing Bsc in Software Engineering.I am a passionate self-taught frontend web developer who believe's in the power of transforming imaginations into reality and providing solutions for every technical problem.</p>
+      <a href="Resume.pdf" download target="_blank" class="hero_btn"><i class='bx bxs-download'></i>Download Resume</a>
     </div>
   </div>
 </section>
@@ -153,6 +156,11 @@
     </div>
     <div class="sk2">
 <img src="work3.jpg" alt="work image">
+<div class="quote">
+  <p class="word">Inspiration</p>
+  <p>Everyday life is like programming, I guess.If you love something you can put beauty on it.</p>
+  <div class="donald">~Donald Knuth</div>
+</div>
     </div>
   </div>
 </section>
@@ -216,9 +224,7 @@
   <p class="footer__title">Engeniusam</p>
   <div class="footer__social">
     <a href="https://www.facebook.com/profile.php?id=100066869435753" target="_blank"><i class='bx bxl-facebook-circle footer__icon' ></i></a>
-    <a href="mailto:engeniusam@gmail.com?subject=Web Development" target="_blank"><span class="material-icons footer__icon">
-      email
-      </span></a>
+    <a href="https://t.me/Eng_eniusam" target="_blank"><i class='bx bxl-telegram footer__icon'></i></a>
     <a href="https://github.com/Engeniusam" target="_blank"><i class='bx bxl-github footer__icon' ></i></a>
   </div>
   <p>&#169; 2021 copyright All rights reserved.</p>
@@ -248,6 +254,7 @@ sr.reveal('.skills__subtitle',{})
 sr.reveal('.skills__text',{delay:200})
 sr.reveal('.skills__data',{interval:200})
 sr.reveal('.sk2',{delay:400})
+sr.reveal('.quote',{delay:500})
 
 sr.reveal('.site',{interval:200})
 
