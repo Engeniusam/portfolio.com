@@ -421,6 +421,7 @@ padding:10px 10px;
 display: inline-block;
 border-radius:25px;
 font-size: 23px;
+text-align:center;
 }
 .hero_btn:hover{
   background-color: #fff;
