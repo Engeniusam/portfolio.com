@@ -54,7 +54,7 @@ function typing() {
   if (i < text.length) {
     document.getElementById("info__subtitle").innerHTML += text.charAt(i);
     i++;
-    setTimeout(typing, 80);
+    setTimeout(typing, 6000);
   }
 }
 typing();
