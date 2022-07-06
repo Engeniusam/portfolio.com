@@ -96,14 +96,16 @@ a.nav__link:hover::after{
   .header-1{
     overflow:visible !important;
   }
-
+header{
+  position: sticky;
+    top:0;
+    z-index: 999;
+}
   .header-1{
     width:100%;
     display: flex;
     justify-content: space-between;
-    position: sticky;
-    top:0;
-    z-index: 999;
+
   }
   div.nav__menu{
     position: absolute;
