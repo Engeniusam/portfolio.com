@@ -487,6 +487,32 @@ div.info p{
   padding-top:30px;
   padding-bottom:30px;
 }
+.skills__languages{
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills__language{
+  height: 90px;
+  width: 80px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.skills__language + .skills__language{
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+.skills__language > img{
+  object-fit: contain;
+  height: 90px;
+  width: 90px;
+}
+.sk1{
+  flex:0.5;
+  margin-right: 30px;
+}
+.sk2{
+  flex: 0.5;
+}
 .sk2 img{
   object-fit: cover;
   object-position: top;
@@ -496,58 +522,8 @@ div.info p{
 }
 
 .sk1, .sk2{
-  flex:1;
   background-color: #fff;
   isolation: isolate;
-}
-div.skills__data{
-  width:80%;
-  margin:auto;
-  display: flex;
-  justify-content: space-between;
-  position:relative;
-  margin-bottom:3%;
-  font-weight:600;
-  padding: .5rem 1rem;
-  border-radius: .5rem;
-  box-shadow: 0 4px 25px rgba(14,36,49,.15);
-}
-div.skills__volume{
-  position:absolute;
-  bottom:0;
-  left:0;
-  right:0;
-  height: .25rem;
-  background-color:var(--first-color);
-
-}
-div.skills__html5{
-width:100%;
-}
-div.skills__css3{
-  width:95%;
-  }
-  div.skills__sass{
-    width:95%;
-    }
-    div.skills__git{
-      width:88%;
-      }
-      div.skills__github{
-        width:90%;
-        }
-        div.skills__bootstrap{
-          width:78%;
-          }
-          div.skills__js{
-            width:70%;
-            }
-.skills__name, .skills__percentage{
-  padding-bottom:2%;
-}
-div.skills__name .bx{
-  font-size:35px;
-  color:var(--first-color);
 }
 .skills__text{
   padding:20px 0;
@@ -556,7 +532,6 @@ div.skills__name .bx{
 .skills__subtitle{
   font-size:23px;
 }
-
 div.quote p{
   font-family: 'Karma', serif;
   font-size: 22px;
@@ -588,7 +563,25 @@ div.quote p:nth-child(2)::after{
   content:  "”";
   font-size: 35px;
 }
-@media (max-width:420px){
+@media (max-width:750px){
+  .skills__language{
+    height: 65px;
+    width: 65px;
+    border:none;
+    margin-bottom: 30px;
+  }
+  .skills__language + .skills__language{
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  .skills__language > img{
+    object-fit: contain;
+    height: 60px;
+    width: 60px;
+  }
+  .skills__text{
+    font-size: 18px;
+  }
   div.quote p{
     font-family: 'Karma', serif;
     font-size: 19px;
@@ -612,6 +605,7 @@ div.quote p:nth-child(2)::after{
     width:98%;
     margin:auto;
   }
+
   .container4{
     display:flex;
     flex-direction:column;
