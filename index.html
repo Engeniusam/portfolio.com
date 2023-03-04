@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5S8KNN4');
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engeniusam Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5S8KNN4" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!--Header Section-->
+    <header class="header-1">
+        <nav class="nav bd-grid">
+            <div><a href="#" class="nav__logo "><span>Port</span>folio</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item "><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu' onclick="showMenu()"></i>
+        </div>
+    </header>
+    <div class="maq">
+        <marquee hspace="50%" scrollamount="5s">
+            <span style="font-size:18px;" class="material-icons">mail</span><em>samuelmu@ueab.ac.ke</em>
+            <span style="margin-left:10px; font-size:18px;" class="material-icons">call</span><em>0741-279-049</em>
+            <span style="margin-left:10px; font-size:18px;"
+                class="material-icons">location_on</span><em>Nairobi,Kenya</em>
+        </marquee>
+    </div>
+    <!--Home Section-->
+    <section id="home" class="section">
+        <video controlsList="nodownload" loop autoplay>
+            <source src="bgvideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="container1">
+            <div class="wrapper">
+                <div class="me">
+                    <h1>Hi<br>I'am <span>Engeniusam</span><br>Web Developer</h1>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="back">
+                    <img src="banner.png" alt="">
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="holla">
+                    <div class="position">
+                        <button class="btn">Contact</button>
+                        <div class="social__icons">
+                            <a href="https://api.whatsapp.com/send?phone=254741279049&text=Hello,%20would%20love%20to%20hear%20from%20you%20on%20the%20web%20project%20you%20want%20Engeniusam%20to%20build%20for%20you.%20"
+                                target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                            <a href="https://www.linkedin.com/in/engeniusam/" target="_blank"><i
+                                    class='bx bxl-linkedin'></i></a>
+                            <a href="https://mobile.twitter.com/engeniusam" target="_blank"><i
+                                    class='bx bxl-twitter'></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About Me Section-->
+    <section id="about" class="section">
+        <h2 class="section-title">About</h2>
+        <div class="container3">
+            <div class="ab1">
+                <img src="comp.jpg" width="500" height="400" alt="about me image">
+            </div>
+            <div class="info ab1">
+                <h3 id="info__subtitle"></h3>
+                <p class="about__text">I am Samuel, call me <em>Engeniusam.</em>I am a self-taught frontend developer
+                    currently
+                    pursuing Bsc in Software Engineering at the University of Eastern Africa, Baraton University. My
+                    background in
+                    digital businesses especially trading online helps me to deliver beautiful &amp; productive websites
+                    with
+                    Tailwind CSS, Vanilla JavaScript and React. I firmly believe in the power of transforming
+                    imaginations into
+                    reality and
+                    providing solutions for every technical problem.</p>
+                <div class="resume">
+                    <center><a href="Photo Resume - Samuel Macharia.pdf" download target="_blank" class="hero_btn"><i
+                                class='bx bxs-download'></i>Download Resume</a></center>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Skills-->
+    <section id="skills" class="section">
+        <h2 class="section-title">Skills</h2>
+        <div class="container4">
+            <div class="sk1">
+                <center>
+                    <h3 class="skills__subtitle">Professional Skills</h3>
+                    <p class="skills__text">Here is a list of the technologies I have been learning and practising to
+                        build
+                        frontend projects</p>
+                </center>
+                <div class="skills__languages">
+                    <div class="skills__language">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png?20170517184425"
+                            alt="HTML Logo">
+                    </div>
+                    <div class="skills__language">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/363px-CSS3_logo_and_wordmark.svg.png?20160530175649"
+                            alt="CSS Logo">
+                    </div>
+                    <div class="skills__language">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png?20120221235433"
+                            alt="Javascript Logo">
+                    </div>
+                    <div class="skills__language">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png?20220125121207"
+                            alt="React Logo">
+                    </div>
+                    <div class="skills__language">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/512px-Sass_Logo_Color.svg.png?20150315202757"
+                            alt="Sass Logo">
+                    </div>
+                    <div class="skills__language">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/JQuery-Logo.svg/524px-JQuery-Logo.svg.png?20200715135602"
+                            alt="jQuery Logo">
+                    </div>
+                    <div class="skills__language">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/512px-Git-logo.svg.png?20160811101906"
+                            alt="Git Logo">
+                    </div>
+                    <div class="skills__language">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png?20180806170715"
+                            alt="Github Logo">
+                    </div>
+                    <div class="skills__language">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png?20210506173343"
+                            alt="Typescript Logo">
+                    </div>
+                    <div class="skills__language">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png?20210507000024"
+                            alt="Bootstrap Logo">
+                    </div>
+                    <div class="skills__language">
+                        <img src="https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png"
+                            alt="Material UI Logo">
+                    </div>
+                    <div class="skills__language">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/600px-Tailwind_CSS_Logo.svg.png?20211001194333"
+                            alt="Tailwind CSS Logo">
+                    </div>
+                    <div class="skills__language">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Sql_data_base_with_logo.png/800px-Sql_data_base_with_logo.png?20210130181641"
+                            alt="SQL Logo">
+                    </div>
+                    <div class="skills__language">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/512px-MongoDB_Logo.svg.png?20190626143224"
+                            alt="Mongodb Logo">
+                    </div>
+                    <div class="skills__language">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/486px-Python_logo_and_wordmark.svg.png?20210516005643"
+                            alt="Python Logo">
+                    </div>
+                    <div class="skills__language">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png?20170401104355"
+                            alt="Node Js Logo">
+                    </div>
+                    <div class="skills__language">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png?20170429090805"
+                            alt="Express Js">
+                    </div>
+                    <div class="skills__language">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/711px-PHP-logo.svg.png?20180502235434"
+                            alt="PHP Logo">
+                    </div>
+                </div>
+
+            </div>
+            <div class="sk2">
+                <img src="work3.jpg" alt="work image">
+                <div class="quote">
+                    <p class="word">Inspiration</p>
+                    <p>Any fool can write code that computers can understand. <b>Good programmers</b> write code that
+                        humans can
+                        understand.</p>
+                    <div class="donald">~ Martin Fowler</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Work Done-->
+    <section id="work" class="section">
+        <h2 class="section-title">Work</h2>
+        <div class="container5">
+            <div class="divider">
+                <div class="site">
+                    <img src="mytunes.png" width="440px" height="320" loading="lazy" alt="myTunes Website">
+                    <p><a href="https://engeniusam.github.io/myTunes.github.io/" target="_blank">myTunes
+                            Website</a>Music store
+                        app for all who love entertainment.</p>
+                </div>
+                <div class="site">
+                    <img src="youtube.png" loading="lazy" alt="Youtube Landing page">
+                    <p><a href="https://engeniusam.github.io/youtube-clone/" target="_blank">Youtube Clone</a>A
+                        prototype of the
+                        actual Youtube platform made with React.js.</p>
+                </div>
+                <div class="site">
+                    <img src="dubai.png" loading="lazy" alt="dubai image">
+                    <p><a href="https://engeniusam.github.io/Dubai_City.github.io/" target="_blank">Dubai
+                            website</a>Parallax
+                        website giving an overview of the city of Dubai</p>
+                </div>
+            </div>
+            <div class="divider">
+                <div class="site">
+                    <img src="campus.png" loading="lazy" alt="campus image">
+                    <p><a href="https://engeniusam.github.io/Eduford-University-Website/" target="_blank">University
+                            Website</a>A
+                        prototype website for Eduford University.</p>
+                </div>
+                <div class="site">
+                    <img src="hulu.png" loading="lazy" alt="Hulu landing page image">
+                    <p><a href="https://latest-hulu-clone.netlify.app/" target="_blank">Hulu Clone</a>A platform made
+                        with
+                        React.js to stream movies and watch live Tv shows.</p>
+                </div>
+                <div class="site">
+                    <img src="w-zone.png" loading="lazy" alt="Engeniusam weather zone lading page">
+                    <p><a href="https://engeniusam-w-zone.netlify.app/" target="_blank">Engeniusam W-Zone</a>A Real-time
+                        world-wide weather app made using React.js. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Me-->
+    <section id="contact" class="section">
+        <form id="form2" netlify>
+            <h2 class="section-title">Contact</h2>
+            <div class="contact__input">
+                <input type="text" placeholder="Enter Name">
+            </div>
+            <div class="contact__input">
+                <input type="email" placeholder="Enter Email">
+            </div>
+            <div class="contact__input">
+                <input type="text" placeholder="Enter your subject">
+            </div>
+            <div class="contact__input">
+                <textarea rows="10" placeholder="Message"></textarea>
+            </div>
+            <button class="hero_btn contact__input" type="submit">Send Message</button>
+        </form>
+    </section>
+    <!--Footer Section-->
+    <footer class="footer">
+        <p class="footer__title">Want to connect with me?</p>
+        <div class="footer__social">
+            <a href="https://github.com/Engeniusam" target="_blank"><i class='bx bxl-github footer__icon'></i></a>
+            <a href="https://t.me/Eng_eniusam" target="_blank"><i class='bx bxl-telegram footer__icon'></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100066869435753" target="_blank"><i
+                    class='bx bxl-facebook-circle footer__icon'></i></a>
+        </div>
+        <p>&#169; 2023 copyright All rights reserved.</p>
+    </footer>
+    <script src='script.js'></script>
+
+    <!--Scrolling effect-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '80px',
+            duration: 2000,
+            reset: true
+        });
+
+        sr.reveal('.me', {})
+        sr.reveal('.back', {
+            delay: 200
+        })
+        sr.reveal('.holla', {
+            delay: 400
+        })
+        sr.reveal('.social__icons', {
+            interval: 200
+        })
+
+        sr.reveal('.ab1', {})
+        sr.reveal('.info__subtitle', {
+            delay: 200
+        })
+        sr.reveal('.about__text', {
+            delay: 400
+        })
+        sr.reveal('.resume', {
+            delay: 600
+        })
+
+        sr.reveal('.skills__subtitle', {})
+        sr.reveal('.skills__text', {
+            delay: 200
+        })
+        sr.reveal('.skills__language', {
+            interval: 200
+        })
+        sr.reveal('.sk2', {
+            delay: 400
+        })
+        sr.reveal('.quote', {
+            delay: 500
+        })
+
+        sr.reveal('.site', {
+            interval: 200
+        })
+
+        sr.reveal('.contact__input', {
+            interval: 200
+        });
+    </script>
+    <!--Preloader-->
+    <div class="loader-wrapper"><span class="loader"><span class="loader-inner"></span></span></div>
+    <script>
+        $(window).on("load", function () {
+            $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
+    <!--Talk To me-->
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/6092a416185beb22b30a4b42/1f4ud1ur6';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+</body>
+
+</html>
