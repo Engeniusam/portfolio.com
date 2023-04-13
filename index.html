@@ -281,19 +281,19 @@
 
     <!--Contact Me-->
     <section id="contact" class="section">
-        <form id="form2" netlify>
+        <form id="form2" action="https://formspree.io/f/xwkjwakr" method="POST">
             <h2 class="section-title">Contact</h2>
             <div class="contact__input">
-                <input type="text" placeholder="Enter Name">
+                <input type="text" name="name" placeholder="Enter Name">
             </div>
             <div class="contact__input">
-                <input type="email" placeholder="Enter Email">
+                <input type="email" name="email" placeholder="Enter Email">
             </div>
             <div class="contact__input">
-                <input type="text" placeholder="Enter your subject">
+                <input type="text" name="subject" placeholder="Enter your subject">
             </div>
             <div class="contact__input">
-                <textarea rows="10" placeholder="Message"></textarea>
+                <textarea rows="10" name="message" placeholder="Message"></textarea>
             </div>
             <button class="hero_btn contact__input" type="submit">Send Message</button>
         </form>
